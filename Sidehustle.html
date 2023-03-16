@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <h1> APPLICATION FORM</h1>
+</head>
+<body>
+    <!--Create a simple form with the following features 1. 
+        Takes in Name, Email address, Phone number, Gender 
+        and Password 2. A SUBMIT button. 3. On submit must highlight 
+        the empty block. 4. Error message when entering the 
+        wrong format of email ID. 5. Display a success message on 
+        successful submission-->
+        
+    <p> <h2> Student Application Form</h2></p>
+        <form action="Sidehustle.html" method="post">
+<fieldset style="width: fit-content;">
+    <legend> Biodata</legend>
+    <label for="Firstname"> Firstname</label>
+    <input type="text" name="Firstname" id="Firstname">
+
+    <label for="Secondname"> Secondname</label>
+    <input type="text" name="Secondname" id="Secondname">
+
+    <label for="Middlename"> Middlename</label>
+    <input type="text" name="Middelname" id="middlename">
+
+    <br> <br>
+    <label for="Mat No"> Mat No</label>
+    <input type="text" name="Mat No" id="Mat No">
+
+    <label for="Dob"> Dob</label>
+    <input type="date" name="Dob" id="Dob">
+
+    <label for="Email"> Email</label>
+    <input type="email" name="Email" id="Email" pattern=".+@globex\.com" size="30" required>
+
+    <label for="Phone number"> phone number</label>
+    <input type="tel" name="phone number" id="phone number">
+    <br> <br>
+    <label for="Gender"> Gender</label><br>
+    <label for="Female"> Female</label>
+    <input type="radio" name="Gender" id="Female" value="Female">
+        <label for="male"> Male</label>
+    <input type="radio" name="Gender" id="male" value="male">
+    <label for="Prefer not to say"> Prefer not to say</label>
+    <input type="radio" name="Gender" id="male" value="Prefer not to say"> 
+    <br> <br>
+    <label for="Password"> Password</label>
+    <input type="password" name="Password" placeholder="Enter your password" id="Password">
+<br> <br>
+<input type="button" id="submit" value="submit ">
+</fieldset>
+ </form>
+
+
+
+
+
+<footer> Copyright &copy; 2023. <br> Thanks to Sidehustle for this opportunity </footer>
+</body>
+</html>
