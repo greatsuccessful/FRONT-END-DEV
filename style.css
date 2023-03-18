@@ -1,0 +1,31 @@
+html{
+    background-image: url("image.jpg/bg2.jpg");
+    }
+     feldset{
+        background-color: aliceblue;
+    }
+    #special{
+        background-color: rgb(102, 68, 68); color: rgb(235, 235, 235); width: fit-content;height: fit-content;
+    
+    }
+    label{
+        background-color: rgb(41, 7, 2); color: aliceblue
+    ;
+    }
+    footer{
+        background-image: url("image.jpg/footer.jpg"); width: fit-content;
+    }
+    figure{
+        width: fit-content; float: right; width: 20%;
+    }
+    figcaption{
+        background-color: wheat; color: rgb(0, 0, 0); float: right; width: fit-content;
+    }
+    img{
+        width: 65%; float: right;
+    }
+    aside{
+        float: right;
+    }
+    
+    
